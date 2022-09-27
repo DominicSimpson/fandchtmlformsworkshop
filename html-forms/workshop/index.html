@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Learn HTML Forms</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Contact</h1>
+
+    <!-- Your form goes here -->
+    <form id="form" action="https://learn-forms.netlify.com/submit/part#2" method="GET">
+      <label for="name">Name:</label>
+      <input id="text" type="text" name="name" placeholder="Enter your full name here" /><br>
+
+      <label for="email">Email:</label><br>
+  		<input id="email" type="email" name="email" placeholder="Enter your email address" required/><br>
+
+      <label for="telephone">Telephone:</label><br>
+  		<input id="tel" type="tel" name="telephone" placeholder="Enter your telephone number" required/><br>
+
+      <label for="contactform">Message:</label><br>
+			<textarea class="contactformtext" id="contactform" name="contactform" placeholder="Enter text here" required></textarea><br>
+
+      <input id="marketingConsent" name="marketingConsent" type="checkbox">
+			<label for="marketingConsent" class="checkbox">Just wreck my Inbox</label>
+
+      <input type="button" id="myBtn" value="Submit"/>
+    </form>
+  
+  </body>
+</html>

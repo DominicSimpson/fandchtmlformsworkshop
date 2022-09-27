@@ -10,7 +10,7 @@
     <h1>Contact</h1>
 
     <!-- Your form goes here -->
-    <form id="form" action="https://learn-forms.netlify.com/submit/part#2" method="GET">
+    <form id="form" action="https://learn-forms.netlify.com/submit/part3" method="GET">
       <label for="name">Name:</label>
       <input id="text" type="text" name="name" placeholder="Enter your full name here" /><br>
 
@@ -19,6 +19,17 @@
 
       <label for="telephone">Telephone:</label><br>
   		<input id="tel" type="tel" name="telephone" placeholder="Enter your telephone number" required/><br>
+
+      <div>
+        <input type="radio" id="email" name="email" value="email" checked>
+        <label for="email">Email</label>
+
+        <input type="radio" id="telephone" name="telephone" value="telephone">
+        <label for="telephone">Telephone</label>
+
+        <input type="radio" id="louie" name="drone" value="post">
+        <label for="post">Post</label>
+      </div>
 
       <label for="contactform">Message:</label><br>
 			<textarea class="contactformtext" id="contactform" name="contactform" placeholder="Enter text here" required></textarea><br>
